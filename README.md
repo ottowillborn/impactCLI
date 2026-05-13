@@ -19,7 +19,7 @@ If you have Java 17+ installed, you can build and run this tool immediately.
 2. **Run the Tool**
    Use the following command to see the tool in action with the "fancy" branding and "system status" features enabled:
    ```bash
-   java -jar target/demo-1.0-SNAPSHOT.jar -f -s
+   java -jar target/impactCLI-1.0-SNAPSHOT.jar -f -s
    ```
 
 ## Features
