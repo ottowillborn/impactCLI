@@ -1,0 +1,27 @@
+# Target directory (Compiled code and JARs)
+target/
+
+# Java and Maven internal files
+*.class
+*.log
+.mtj.tmp/
+*.jar
+*.war
+*.ear
+
+# VS Code settings
+.vscode/
+bin/
+.settings/
+.project
+.classpath
+
+# Maven Wrapper files (Optional: keep these if you want others to use .\mvnw)
+# .mvn/
+# mvnw
+# mvnw.cmd
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
