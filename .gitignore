@@ -1,4 +1,4 @@
-# Target directory (Compiled code and JARs)
+# Target directory 
 target/
 
 # Java and Maven internal files
@@ -15,11 +15,6 @@ bin/
 .settings/
 .project
 .classpath
-
-# Maven Wrapper files (Optional: keep these if you want others to use .\mvnw)
-# .mvn/
-# mvnw
-# mvnw.cmd
 
 # OS generated files
 Thumbs.db
