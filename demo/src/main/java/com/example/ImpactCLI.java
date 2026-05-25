@@ -41,13 +41,13 @@ public class ImpactCLI implements Callable<Integer> {
     }
 
     private void checkSystemHealth() {
-        File root = new File("C:");
+        File root = new File(System.getProperty("user.home"));
         long totalSpace = root.getTotalSpace() / (1024 * 1024 * 1024);
         long freeSpace = root.getFreeSpace() / (1024 * 1024 * 1024);
         long usedSpace = totalSpace - freeSpace;
 
         System.out.println("\n--- [ SYSTEM HEALTH ] ---");
-        System.out.printf("Storage (C:): %d GB / %d GB used%n", usedSpace, totalSpace);
+        System.out.printf("Storage (%s): %d GB / %d GB used%n", root.getAbsolutePath(), usedSpace, totalSpace);
         
         long maxMemory = Runtime.getRuntime().maxMemory() / (1024 * 1024);
         System.out.printf("JVM Memory:   %d MB allocated%n", maxMemory);
