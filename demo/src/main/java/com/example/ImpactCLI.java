@@ -27,7 +27,7 @@ public class ImpactCLI implements Callable<Integer> {
             System.out.println("  ██║ ██║ ╚═╝ ██║ ██║      ██║  ██║ ╚██████╗   ██║     ");
             System.out.println("  ╚═╝ ╚═╝     ╚═╝ ╚═╝      ╚═╝  ╚═╝  ╚═════╝   ╚═╝     ");
             System.out.println("                 COMMAND LINE INTERFACE                ");  
-        } else if (!fancy) {
+        } else {
             System.out.println("===============================");
             System.out.println("       IMPACT CLI TOOL        ");
             System.out.println("===============================");
